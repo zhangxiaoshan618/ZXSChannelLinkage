@@ -1,0 +1,601 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3300A939C1A4A09BC1918035 /* Pods_ZXSChannelLinkage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EB8927B04FD75756B98088B /* Pods_ZXSChannelLinkage.framework */; };
+		B35621FA1CCA095400CAEB36 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35621F91CCA095400CAEB36 /* AppDelegate.swift */; };
+		B35622011CCA095400CAEB36 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B35622001CCA095400CAEB36 /* Assets.xcassets */; };
+		B35622041CCA095400CAEB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35622021CCA095400CAEB36 /* LaunchScreen.storyboard */; };
+		B356220F1CCA095400CAEB36 /* ZXSChannelLinkageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356220E1CCA095400CAEB36 /* ZXSChannelLinkageTests.swift */; };
+		B356221A1CCA095400CAEB36 /* ZXSChannelLinkageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35622191CCA095400CAEB36 /* ZXSChannelLinkageUITests.swift */; };
+		B356222C1CCA0DDF00CAEB36 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356222B1CCA0DDF00CAEB36 /* ExampleViewController.swift */; };
+		B35622301CCA114700CAEB36 /* ZXSChannelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356222E1CCA114700CAEB36 /* ZXSChannelLabel.swift */; };
+		B35622311CCA114700CAEB36 /* ZXSChannelLinkageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356222F1CCA114700CAEB36 /* ZXSChannelLinkageController.swift */; };
+		B35622341CCA1CA600CAEB36 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35622331CCA1CA600CAEB36 /* UIColor+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B356220B1CCA095400CAEB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35621EE1CCA095400CAEB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35621F51CCA095400CAEB36;
+			remoteInfo = ZXSChannelLinkage;
+		};
+		B35622161CCA095400CAEB36 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B35621EE1CCA095400CAEB36 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B35621F51CCA095400CAEB36;
+			remoteInfo = ZXSChannelLinkage;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		5EB8927B04FD75756B98088B /* Pods_ZXSChannelLinkage.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ZXSChannelLinkage.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FB7859246B1AEA8F666C836 /* Pods-ZXSChannelLinkage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSChannelLinkage.release.xcconfig"; path = "Pods/Target Support Files/Pods-ZXSChannelLinkage/Pods-ZXSChannelLinkage.release.xcconfig"; sourceTree = "<group>"; };
+		AC452A1CD61109D850539D97 /* Pods-ZXSChannelLinkage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ZXSChannelLinkage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ZXSChannelLinkage/Pods-ZXSChannelLinkage.debug.xcconfig"; sourceTree = "<group>"; };
+		B35621F61CCA095400CAEB36 /* ZXSChannelLinkage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ZXSChannelLinkage.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35621F91CCA095400CAEB36 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B35622001CCA095400CAEB36 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B35622031CCA095400CAEB36 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B35622051CCA095400CAEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B356220A1CCA095400CAEB36 /* ZXSChannelLinkageTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXSChannelLinkageTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B356220E1CCA095400CAEB36 /* ZXSChannelLinkageTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSChannelLinkageTests.swift; sourceTree = "<group>"; };
+		B35622101CCA095400CAEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B35622151CCA095400CAEB36 /* ZXSChannelLinkageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXSChannelLinkageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B35622191CCA095400CAEB36 /* ZXSChannelLinkageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSChannelLinkageUITests.swift; sourceTree = "<group>"; };
+		B356221B1CCA095400CAEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B356222B1CCA0DDF00CAEB36 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
+		B356222E1CCA114700CAEB36 /* ZXSChannelLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSChannelLabel.swift; sourceTree = "<group>"; };
+		B356222F1CCA114700CAEB36 /* ZXSChannelLinkageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSChannelLinkageController.swift; sourceTree = "<group>"; };
+		B35622331CCA1CA600CAEB36 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B35621F31CCA095400CAEB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3300A939C1A4A09BC1918035 /* Pods_ZXSChannelLinkage.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35622071CCA095400CAEB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35622121CCA095400CAEB36 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		7D5157D6EC52807590FFD931 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5EB8927B04FD75756B98088B /* Pods_ZXSChannelLinkage.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B35621ED1CCA095400CAEB36 = {
+			isa = PBXGroup;
+			children = (
+				B35621F81CCA095400CAEB36 /* ZXSChannelLinkage */,
+				B356220D1CCA095400CAEB36 /* ZXSChannelLinkageTests */,
+				B35622181CCA095400CAEB36 /* ZXSChannelLinkageUITests */,
+				B35621F71CCA095400CAEB36 /* Products */,
+				CA4016B771E4507FE7527FDC /* Pods */,
+				7D5157D6EC52807590FFD931 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		B35621F71CCA095400CAEB36 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B35621F61CCA095400CAEB36 /* ZXSChannelLinkage.app */,
+				B356220A1CCA095400CAEB36 /* ZXSChannelLinkageTests.xctest */,
+				B35622151CCA095400CAEB36 /* ZXSChannelLinkageUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B35621F81CCA095400CAEB36 /* ZXSChannelLinkage */ = {
+			isa = PBXGroup;
+			children = (
+				B356222D1CCA114700CAEB36 /* Source */,
+				B35621F91CCA095400CAEB36 /* AppDelegate.swift */,
+				B356222B1CCA0DDF00CAEB36 /* ExampleViewController.swift */,
+				B35622001CCA095400CAEB36 /* Assets.xcassets */,
+				B35622021CCA095400CAEB36 /* LaunchScreen.storyboard */,
+				B35622051CCA095400CAEB36 /* Info.plist */,
+				B35622321CCA1CA600CAEB36 /* Extensions */,
+			);
+			path = ZXSChannelLinkage;
+			sourceTree = "<group>";
+		};
+		B356220D1CCA095400CAEB36 /* ZXSChannelLinkageTests */ = {
+			isa = PBXGroup;
+			children = (
+				B356220E1CCA095400CAEB36 /* ZXSChannelLinkageTests.swift */,
+				B35622101CCA095400CAEB36 /* Info.plist */,
+			);
+			path = ZXSChannelLinkageTests;
+			sourceTree = "<group>";
+		};
+		B35622181CCA095400CAEB36 /* ZXSChannelLinkageUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B35622191CCA095400CAEB36 /* ZXSChannelLinkageUITests.swift */,
+				B356221B1CCA095400CAEB36 /* Info.plist */,
+			);
+			path = ZXSChannelLinkageUITests;
+			sourceTree = "<group>";
+		};
+		B356222D1CCA114700CAEB36 /* Source */ = {
+			isa = PBXGroup;
+			children = (
+				B356222E1CCA114700CAEB36 /* ZXSChannelLabel.swift */,
+				B356222F1CCA114700CAEB36 /* ZXSChannelLinkageController.swift */,
+			);
+			path = Source;
+			sourceTree = "<group>";
+		};
+		B35622321CCA1CA600CAEB36 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B35622331CCA1CA600CAEB36 /* UIColor+Extension.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		CA4016B771E4507FE7527FDC /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AC452A1CD61109D850539D97 /* Pods-ZXSChannelLinkage.debug.xcconfig */,
+				8FB7859246B1AEA8F666C836 /* Pods-ZXSChannelLinkage.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B35621F51CCA095400CAEB36 /* ZXSChannelLinkage */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B356221E1CCA095400CAEB36 /* Build configuration list for PBXNativeTarget "ZXSChannelLinkage" */;
+			buildPhases = (
+				350DF81479ABA43F724CB216 /* Check Pods Manifest.lock */,
+				B35621F21CCA095400CAEB36 /* Sources */,
+				B35621F31CCA095400CAEB36 /* Frameworks */,
+				B35621F41CCA095400CAEB36 /* Resources */,
+				38F16E6ADD8DBE73375A0905 /* Embed Pods Frameworks */,
+				F9F0FA071A42FD8D50282D77 /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ZXSChannelLinkage;
+			productName = ZXSChannelLinkage;
+			productReference = B35621F61CCA095400CAEB36 /* ZXSChannelLinkage.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B35622091CCA095400CAEB36 /* ZXSChannelLinkageTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35622211CCA095400CAEB36 /* Build configuration list for PBXNativeTarget "ZXSChannelLinkageTests" */;
+			buildPhases = (
+				B35622061CCA095400CAEB36 /* Sources */,
+				B35622071CCA095400CAEB36 /* Frameworks */,
+				B35622081CCA095400CAEB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B356220C1CCA095400CAEB36 /* PBXTargetDependency */,
+			);
+			name = ZXSChannelLinkageTests;
+			productName = ZXSChannelLinkageTests;
+			productReference = B356220A1CCA095400CAEB36 /* ZXSChannelLinkageTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B35622141CCA095400CAEB36 /* ZXSChannelLinkageUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B35622241CCA095400CAEB36 /* Build configuration list for PBXNativeTarget "ZXSChannelLinkageUITests" */;
+			buildPhases = (
+				B35622111CCA095400CAEB36 /* Sources */,
+				B35622121CCA095400CAEB36 /* Frameworks */,
+				B35622131CCA095400CAEB36 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B35622171CCA095400CAEB36 /* PBXTargetDependency */,
+			);
+			name = ZXSChannelLinkageUITests;
+			productName = ZXSChannelLinkageUITests;
+			productReference = B35622151CCA095400CAEB36 /* ZXSChannelLinkageUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B35621EE1CCA095400CAEB36 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = "张晓珊";
+				TargetAttributes = {
+					B35621F51CCA095400CAEB36 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					B35622091CCA095400CAEB36 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B35621F51CCA095400CAEB36;
+					};
+					B35622141CCA095400CAEB36 = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = B35621F51CCA095400CAEB36;
+					};
+				};
+			};
+			buildConfigurationList = B35621F11CCA095400CAEB36 /* Build configuration list for PBXProject "ZXSChannelLinkage" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B35621ED1CCA095400CAEB36;
+			productRefGroup = B35621F71CCA095400CAEB36 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B35621F51CCA095400CAEB36 /* ZXSChannelLinkage */,
+				B35622091CCA095400CAEB36 /* ZXSChannelLinkageTests */,
+				B35622141CCA095400CAEB36 /* ZXSChannelLinkageUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B35621F41CCA095400CAEB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B35622041CCA095400CAEB36 /* LaunchScreen.storyboard in Resources */,
+				B35622011CCA095400CAEB36 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35622081CCA095400CAEB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35622131CCA095400CAEB36 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		350DF81479ABA43F724CB216 /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		38F16E6ADD8DBE73375A0905 /* Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXSChannelLinkage/Pods-ZXSChannelLinkage-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		F9F0FA071A42FD8D50282D77 /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ZXSChannelLinkage/Pods-ZXSChannelLinkage-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B35621F21CCA095400CAEB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356222C1CCA0DDF00CAEB36 /* ExampleViewController.swift in Sources */,
+				B35621FA1CCA095400CAEB36 /* AppDelegate.swift in Sources */,
+				B35622311CCA114700CAEB36 /* ZXSChannelLinkageController.swift in Sources */,
+				B35622301CCA114700CAEB36 /* ZXSChannelLabel.swift in Sources */,
+				B35622341CCA1CA600CAEB36 /* UIColor+Extension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35622061CCA095400CAEB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356220F1CCA095400CAEB36 /* ZXSChannelLinkageTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B35622111CCA095400CAEB36 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B356221A1CCA095400CAEB36 /* ZXSChannelLinkageUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B356220C1CCA095400CAEB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35621F51CCA095400CAEB36 /* ZXSChannelLinkage */;
+			targetProxy = B356220B1CCA095400CAEB36 /* PBXContainerItemProxy */;
+		};
+		B35622171CCA095400CAEB36 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B35621F51CCA095400CAEB36 /* ZXSChannelLinkage */;
+			targetProxy = B35622161CCA095400CAEB36 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B35622021CCA095400CAEB36 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B35622031CCA095400CAEB36 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B356221C1CCA095400CAEB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B356221D1CCA095400CAEB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B356221F1CCA095400CAEB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AC452A1CD61109D850539D97 /* Pods-ZXSChannelLinkage.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXSChannelLinkage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.startimes.ZXSChannelLinkage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		B35622201CCA095400CAEB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8FB7859246B1AEA8F666C836 /* Pods-ZXSChannelLinkage.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = ZXSChannelLinkage/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.startimes.ZXSChannelLinkage;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		B35622221CCA095400CAEB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXSChannelLinkageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.startimes.ZXSChannelLinkageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXSChannelLinkage.app/ZXSChannelLinkage";
+			};
+			name = Debug;
+		};
+		B35622231CCA095400CAEB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ZXSChannelLinkageTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.startimes.ZXSChannelLinkageTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ZXSChannelLinkage.app/ZXSChannelLinkage";
+			};
+			name = Release;
+		};
+		B35622251CCA095400CAEB36 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXSChannelLinkageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.startimes.ZXSChannelLinkageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXSChannelLinkage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		B35622261CCA095400CAEB36 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = ZXSChannelLinkageUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.startimes.ZXSChannelLinkageUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = ZXSChannelLinkage;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B35621F11CCA095400CAEB36 /* Build configuration list for PBXProject "ZXSChannelLinkage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B356221C1CCA095400CAEB36 /* Debug */,
+				B356221D1CCA095400CAEB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B356221E1CCA095400CAEB36 /* Build configuration list for PBXNativeTarget "ZXSChannelLinkage" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B356221F1CCA095400CAEB36 /* Debug */,
+				B35622201CCA095400CAEB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35622211CCA095400CAEB36 /* Build configuration list for PBXNativeTarget "ZXSChannelLinkageTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35622221CCA095400CAEB36 /* Debug */,
+				B35622231CCA095400CAEB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B35622241CCA095400CAEB36 /* Build configuration list for PBXNativeTarget "ZXSChannelLinkageUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B35622251CCA095400CAEB36 /* Debug */,
+				B35622261CCA095400CAEB36 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B35621EE1CCA095400CAEB36 /* Project object */;
+}
