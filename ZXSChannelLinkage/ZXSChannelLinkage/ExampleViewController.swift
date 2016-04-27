@@ -8,7 +8,7 @@
 
 import UIKit
 
-class ExampleViewController: UIViewController {
+class ExampleViewController: ZXSChannelLinkageController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,9 +16,9 @@ class ExampleViewController: UIViewController {
         view.backgroundColor = UIColor.whiteColor()
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    override func loadData() {
+        channelsArray = ["频道1", "频道频道1", "频道2", "频道"]
+        setupUI()
     }
 
 

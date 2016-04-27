@@ -17,6 +17,8 @@
 		B35622301CCA114700CAEB36 /* ZXSChannelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356222E1CCA114700CAEB36 /* ZXSChannelLabel.swift */; };
 		B35622311CCA114700CAEB36 /* ZXSChannelLinkageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356222F1CCA114700CAEB36 /* ZXSChannelLinkageController.swift */; };
 		B35622341CCA1CA600CAEB36 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35622331CCA1CA600CAEB36 /* UIColor+Extension.swift */; };
+		B365D33C1CD0A14300290633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D33B1CD0A14300290633 /* ViewController.swift */; };
+		B365D33E1CD0A15400290633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B365D33D1CD0A15400290633 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +57,8 @@
 		B356222E1CCA114700CAEB36 /* ZXSChannelLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSChannelLabel.swift; sourceTree = "<group>"; };
 		B356222F1CCA114700CAEB36 /* ZXSChannelLinkageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSChannelLinkageController.swift; sourceTree = "<group>"; };
 		B35622331CCA1CA600CAEB36 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
+		B365D33B1CD0A14300290633 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B365D33D1CD0A15400290633 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -118,6 +122,8 @@
 			children = (
 				B356222D1CCA114700CAEB36 /* Source */,
 				B35621F91CCA095400CAEB36 /* AppDelegate.swift */,
+				B365D33B1CD0A14300290633 /* ViewController.swift */,
+				B365D33D1CD0A15400290633 /* Main.storyboard */,
 				B356222B1CCA0DDF00CAEB36 /* ExampleViewController.swift */,
 				B35622001CCA095400CAEB36 /* Assets.xcassets */,
 				B35622021CCA095400CAEB36 /* LaunchScreen.storyboard */,
@@ -278,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B365D33E1CD0A15400290633 /* Main.storyboard in Resources */,
 				B35622041CCA095400CAEB36 /* LaunchScreen.storyboard in Resources */,
 				B35622011CCA095400CAEB36 /* Assets.xcassets in Resources */,
 			);
@@ -352,6 +359,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B365D33C1CD0A14300290633 /* ViewController.swift in Sources */,
 				B356222C1CCA0DDF00CAEB36 /* ExampleViewController.swift in Sources */,
 				B35621FA1CCA095400CAEB36 /* AppDelegate.swift in Sources */,
 				B35622311CCA114700CAEB36 /* ZXSChannelLinkageController.swift in Sources */,
