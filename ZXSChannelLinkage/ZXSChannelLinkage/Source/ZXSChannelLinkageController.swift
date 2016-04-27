@@ -151,7 +151,7 @@ extension ZXSChannelLinkageController: UICollectionViewDelegate, UICollectionVie
         let halfW = 0.5 * w
         
         if a == currentIndex && b > halfW {
-            nextlabel = channelScrollerView.subviews[a + 1] as! ZXSChannelLabel
+            nextlabel = channelScrollerView.subviews[a + 1] as? ZXSChannelLabel
             currentlabel.highlighted = false
             nextlabel!.highlighted = true
             currentIndex = a + 1
@@ -174,7 +174,7 @@ extension ZXSChannelLinkageController: UICollectionViewDelegate, UICollectionVie
             return
         }
         
-        nextlabel = channelScrollerView.subviews[a] as! ZXSChannelLabel
+        nextlabel = channelScrollerView.subviews[a] as? ZXSChannelLabel
         currentlabel.highlighted = false
         nextlabel!.highlighted = true
         currentIndex = a
