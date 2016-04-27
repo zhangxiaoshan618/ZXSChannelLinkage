@@ -16,9 +16,45 @@
                     <view key="view" contentMode="scaleToFill" id="BbC-Xj-UN1">
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="LQv-PN-eWL">
+                                <rect key="frame" x="165" y="335" width="270" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="Bja-6u-bNq"/>
+                                    <constraint firstAttribute="width" constant="270" id="a4h-sM-uxv"/>
+                                </constraints>
+                                <state key="normal" title="频道数目较多时（大于屏幕的宽度）展示"/>
+                                <connections>
+                                    <action selector="ManyBtnClick:" destination="6Kf-1I-pK6" eventType="touchUpInside" id="ciN-sV-Qtx"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="heu-DS-can">
+                                <rect key="frame" x="165" y="235" width="270" height="30"/>
+                                <color key="backgroundColor" white="0.66666666666666663" alpha="1" colorSpace="calibratedWhite"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="270" id="TFx-SU-WfG"/>
+                                    <constraint firstAttribute="height" constant="30" id="zYo-n6-Rqj"/>
+                                </constraints>
+                                <state key="normal" title="频道数目较少时（小于屏幕的宽度）展示"/>
+                                <connections>
+                                    <action selector="FewerBtnClick:" destination="6Kf-1I-pK6" eventType="touchUpInside" id="XVQ-HW-7aM"/>
+                                </connections>
+                            </button>
+                        </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstItem="heu-DS-can" firstAttribute="centerY" secondItem="BbC-Xj-UN1" secondAttribute="centerY" constant="-50" id="5wL-Vi-8gn"/>
+                            <constraint firstItem="LQv-PN-eWL" firstAttribute="centerY" secondItem="BbC-Xj-UN1" secondAttribute="centerY" constant="50" id="FzI-5d-rok"/>
+                            <constraint firstItem="heu-DS-can" firstAttribute="centerX" secondItem="BbC-Xj-UN1" secondAttribute="centerX" id="YF3-Si-UUr"/>
+                            <constraint firstItem="LQv-PN-eWL" firstAttribute="centerX" secondItem="BbC-Xj-UN1" secondAttribute="centerX" id="ZT8-7r-DlS"/>
+                        </constraints>
                     </view>
                     <navigationItem key="navigationItem" id="RlX-Zg-ZxO"/>
+                    <connections>
+                        <outlet property="FewerBtn" destination="heu-DS-can" id="hTs-8e-FFK"/>
+                        <outlet property="ManyBtn" destination="LQv-PN-eWL" id="7vu-S6-ohT"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dLJ-TG-Asi" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>

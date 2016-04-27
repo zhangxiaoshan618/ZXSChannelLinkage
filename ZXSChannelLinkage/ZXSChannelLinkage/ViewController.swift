@@ -10,14 +10,19 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var ManyBtn: UIButton!
+    @IBOutlet weak var FewerBtn: UIButton!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-        // Do any additional setup after loading the view.
     }
 
-    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
-        self.navigationController?.pushViewController(ExampleViewController(), animated:true)
+    @IBAction func ManyBtnClick(sender: AnyObject) {
+        self.navigationController?.pushViewController(ManyChannelsViewController(), animated:true)
     }
-
+    
+    @IBAction func FewerBtnClick(sender: AnyObject) {
+        self.navigationController?.pushViewController(FewerChannelsViewController(), animated:true)
+    }
 }

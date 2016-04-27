@@ -13,12 +13,13 @@
 		B35622041CCA095400CAEB36 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B35622021CCA095400CAEB36 /* LaunchScreen.storyboard */; };
 		B356220F1CCA095400CAEB36 /* ZXSChannelLinkageTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356220E1CCA095400CAEB36 /* ZXSChannelLinkageTests.swift */; };
 		B356221A1CCA095400CAEB36 /* ZXSChannelLinkageUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35622191CCA095400CAEB36 /* ZXSChannelLinkageUITests.swift */; };
-		B356222C1CCA0DDF00CAEB36 /* ExampleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356222B1CCA0DDF00CAEB36 /* ExampleViewController.swift */; };
 		B35622301CCA114700CAEB36 /* ZXSChannelLabel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356222E1CCA114700CAEB36 /* ZXSChannelLabel.swift */; };
 		B35622311CCA114700CAEB36 /* ZXSChannelLinkageController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B356222F1CCA114700CAEB36 /* ZXSChannelLinkageController.swift */; };
 		B35622341CCA1CA600CAEB36 /* UIColor+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = B35622331CCA1CA600CAEB36 /* UIColor+Extension.swift */; };
 		B365D33C1CD0A14300290633 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D33B1CD0A14300290633 /* ViewController.swift */; };
 		B365D33E1CD0A15400290633 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B365D33D1CD0A15400290633 /* Main.storyboard */; };
+		B365D3441CD0AF8200290633 /* ManyChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D3431CD0AF8200290633 /* ManyChannelsViewController.swift */; };
+		B365D3461CD0AF9E00290633 /* FewerChannelsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B365D3451CD0AF9E00290633 /* FewerChannelsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,12 +54,13 @@
 		B35622151CCA095400CAEB36 /* ZXSChannelLinkageUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ZXSChannelLinkageUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B35622191CCA095400CAEB36 /* ZXSChannelLinkageUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZXSChannelLinkageUITests.swift; sourceTree = "<group>"; };
 		B356221B1CCA095400CAEB36 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		B356222B1CCA0DDF00CAEB36 /* ExampleViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExampleViewController.swift; sourceTree = "<group>"; };
 		B356222E1CCA114700CAEB36 /* ZXSChannelLabel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSChannelLabel.swift; sourceTree = "<group>"; };
 		B356222F1CCA114700CAEB36 /* ZXSChannelLinkageController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ZXSChannelLinkageController.swift; sourceTree = "<group>"; };
 		B35622331CCA1CA600CAEB36 /* UIColor+Extension.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "UIColor+Extension.swift"; sourceTree = "<group>"; };
 		B365D33B1CD0A14300290633 /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		B365D33D1CD0A15400290633 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B365D3431CD0AF8200290633 /* ManyChannelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ManyChannelsViewController.swift; sourceTree = "<group>"; };
+		B365D3451CD0AF9E00290633 /* FewerChannelsViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FewerChannelsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -124,7 +126,8 @@
 				B35621F91CCA095400CAEB36 /* AppDelegate.swift */,
 				B365D33B1CD0A14300290633 /* ViewController.swift */,
 				B365D33D1CD0A15400290633 /* Main.storyboard */,
-				B356222B1CCA0DDF00CAEB36 /* ExampleViewController.swift */,
+				B365D3451CD0AF9E00290633 /* FewerChannelsViewController.swift */,
+				B365D3431CD0AF8200290633 /* ManyChannelsViewController.swift */,
 				B35622001CCA095400CAEB36 /* Assets.xcassets */,
 				B35622021CCA095400CAEB36 /* LaunchScreen.storyboard */,
 				B35622051CCA095400CAEB36 /* Info.plist */,
@@ -360,10 +363,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				B365D33C1CD0A14300290633 /* ViewController.swift in Sources */,
-				B356222C1CCA0DDF00CAEB36 /* ExampleViewController.swift in Sources */,
+				B365D3461CD0AF9E00290633 /* FewerChannelsViewController.swift in Sources */,
 				B35621FA1CCA095400CAEB36 /* AppDelegate.swift in Sources */,
 				B35622311CCA114700CAEB36 /* ZXSChannelLinkageController.swift in Sources */,
 				B35622301CCA114700CAEB36 /* ZXSChannelLabel.swift in Sources */,
+				B365D3441CD0AF8200290633 /* ManyChannelsViewController.swift in Sources */,
 				B35622341CCA1CA600CAEB36 /* UIColor+Extension.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
